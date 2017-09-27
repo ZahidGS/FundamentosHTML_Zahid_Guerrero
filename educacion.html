@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximunum-scale=1", width=device-width>
+	<meta name="author" content="Zahid Guerrero">
+	<meta name="keywords" content="curriculum, vitae, curricular, hoja de vida">
+	<meta name="description" content="Curriculum Vitae">
+	<title>Curriculum Vitae</title></head>
+<body>
+
+	<header>
+		<svg>
+			<image width="300px" height="150px" xlink:href="img/logo.svg"></image>
+		</svg>
+		<h1>Curriculum Vitae</h1>
+		<h2>Licenciado en Informática Administrativa</h2>
+		<h2>Zahid Guerrero Sandoval</h2>
+		<h3>Fecha de Nacimiento: 09 de julio de 1975</h3>
+		<h3>Lugar de Nacimiento: Maravatio Michoacán</h3>
+	</header>
+
+	<nav>
+		<a href="index.html">Inicio</a>
+		<a href="educacion.html">Educación</a>
+		<a href="experiencia.html">Experiencia</a>
+	</nav>
+
+	<section>
+
+	<br>
+
+	<hr style="color: #0056b2;" />
+
+	<h2>Educación</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>			
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>1998</td>
+				<td>Universidad Autonóma del Estado de México</td>
+				<td>Toluca, Estado de México</td>
+				<td>Si</td>
+			</tr>			
+			
+			<tr>
+				<td>2017</td>
+				<td>Next Universidad</td>
+				<td>Online</td>
+				<td>En curso</td>
+			</tr>			
+		</tbody>
+
+	</table>
+
+	<br>
+
+	<form action="">
+		<h2>Agregar Estudios</h2>
+		<p>
+			<label for="anio">Año: </label>
+			
+			<select name="anio">
+				<option value="1">2017</option>
+				<option value="2">2016</option>
+				<option value="3">2015</option>
+				<option value="4">2014</option>
+				<option value="5">2013</option>
+				<option value="6">2012</option>
+				<option value="7">2011</option>
+				<option value="8">2010</option>
+			</select>
+		</p>
+		<p>
+			<label for="institucion">Institución: </label>
+			<br>
+			<input type="text" name="institucion" placeholder="Institución" required>
+		</p>
+		<p>
+			<label for="lugar">Lugar: </label>
+			<br>
+			<textarea name="lugar" id="lugar" cols="30" rows="3" placeholder="Lugar de estudios"></textarea>
+		</p>
+		<p>
+			<label for="culmin">¿Culminó? </label>
+			
+			<input type="radio" name="culmino"> Si
+			
+			<input type="radio" name="culmino"> No
+		</p>
+
+		<p>
+			<input type="submit" value="Enviar">
+		</p>
+	</form>
+	
+	</section>
+
+	<br>
+	
+	<hr style="color: #0056b2;" />
+
+	<footer>
+		<b>email:</b> zahid.guerrero1@gmail.com <br>
+		<b>Teléfono:</b> 045 447 112 9300<br>
+		<b>Domicilio:</b> Ebano 475, Colinas del Sur, Morelia Michoacán, 58000
+	</footer>
+
+</body>
+</html>
